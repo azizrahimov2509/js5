@@ -116,23 +116,23 @@ printArray(6)=> [1, 2, 3, 4, 5, 6*/
 
 /* Fibonachi sonlari(Recursiv funksiya bilan ishlash)*/
 
-let fib = +prompt("Fibonachi son chiqrish uchun son kriting");
+// let fib = +prompt("Fibonachi son chiqrish uchun son kriting");
 
-function fibadachi(n){
-  if(n<0){
-    return "Son 0dan kotta bo'lish kerak"
-  }else if(n==0){
-    return 0;
-  }else if(n==1){
-    return 1;
-  }else{
-    return fibadachi(n-1) + fibadachi(n-2);
-  }
-}
+// function fibadachi(n){
+//   if(n<0){
+//     return "Son 0dan kotta bo'lish kerak"
+//   }else if(n==0){
+//     return 0;
+//   }else if(n==1){
+//     return 1;
+//   }else{
+//     return fibadachi(n-1) + fibadachi(n-2);
+//   }
+// }
 
-console.log(fibadachi(fib));
+// console.log(fibadachi(fib));
   
- 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
